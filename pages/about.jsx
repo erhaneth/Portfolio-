@@ -6,6 +6,7 @@ export default function About() {
     return (
         <div>
             <h1>About</h1>
+            <h2>{`it's my porfolio!!`}</h2>
             <p className={[styles.extraBlue, styles.bigFont].join(" ")}>This is about me</p>
             <div>
                 <style jsx>
