@@ -7,11 +7,11 @@ export default function Welcome() {
     <div className="w-1/2 h-[16rem] text-center">
       <div className="max-w-[1240px] w-full 1/2 flex justify-center items-center">
         <div>
-          <h1 className="py-4 text-[#090c14]">
+          <h1 className="py-12 text-[#090c14]">
             Hello, I'm <span className="text-[#ff7e00]">Heg</span>
           </h1>
-          <h1 className="py-2 text-[#090c14]">A Software Developer</h1>
-          <p className="py-4 text-gray-500 max-w-[%35] m-auto">
+          <h1 className="py-12 text-[#090c14]">A Software Developer</h1>
+          <p className="py-24 text-gray-500 max-w-[%35] m-auto">
             I am interested in developing efficient and user-centric projects.
             Primarily work with Fullstack tools and related technologies, and
             always seek to immerse myself in new tech to understand how issues

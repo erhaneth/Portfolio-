@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Welcome from '../components/Welcome'
+import About from '../components/About'
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Welcome />
+      <About />
       
       
     </div>
