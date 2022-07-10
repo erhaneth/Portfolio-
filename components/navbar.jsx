@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavLogo from '../public/navLogo.png'
+
 export default function Navbar() {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
