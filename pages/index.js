@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Welcome from '../components/Welcome'
 import About from '../components/About'
+import Skills from '../components/skills'
 
 
 
@@ -18,6 +18,7 @@ export default function Home() {
 
       <Welcome />
       <About />
+      <Skills />
       </div>
       
       
