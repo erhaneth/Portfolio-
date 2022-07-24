@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import wordieImg from "../public/contact.jpg";
-import blockquoteImg from "../public/contact.jpg";
-import dettiposImg from "../public/contact.jpg";
-import dbankImg from "../public/contact.jpg";
+import wordieImg from "../public/projects/wordie.png";
+import blockquoteImg from "../public/projects/blockquote.png";
+import dettiposImg from "../public/projects/dettipos.png";
+import dbankImg from "../public/projects/dbank.png";
 
 import Link from "next/link";
 import ProjectItems from "./ProjectItems";
@@ -26,17 +26,17 @@ export default function Projects() {
           <ProjectItems
             title="Blockquote"
             backgroundImage={blockquoteImg}
-            projectUrl="/wordie"
+            projectUrl="/blockquote"
           />
           <ProjectItems
             title="Dettipos"
             backgroundImage={dettiposImg}
-            projectUrl="/wordie"
+            projectUrl="/dettipos"
           />
           <ProjectItems
             title="Dbank"
             backgroundImage={dbankImg}
-            projectUrl="/wordie"
+            projectUrl="/dbank"
           />
         </div>
       </div>

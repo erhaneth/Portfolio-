@@ -3,7 +3,7 @@ import Welcome from '../components/Welcome'
 import About from '../components/About'
 import Skills from '../components/skills'
 import Projects from '../components/Projects'
-import Contact from '../components/Projects'
+import Contact from '../components/Contact'
 
 
 
