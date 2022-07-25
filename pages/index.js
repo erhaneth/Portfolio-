@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Welcome from '../components/Welcome'
 import About from '../components/About'
-import Skills from '../components/skills'
+import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="lg:w-full">
+    <div div id ='skills' className="lg:w-full">
       <div className="max-w-4xl mx-auto flex flex-col justify center h-full">
         <p className="pb-4 uppercase flex justify justify-center items-center text-xl tracking-widest text-[#090c14]">
           Skills

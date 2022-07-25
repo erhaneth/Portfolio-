@@ -10,11 +10,11 @@ export default function Welcome() {
         <div>
           <h1 className="py-8 text-[#090c14]">
             <p className="mb-5">
-              Hello, I'm <span className="text-[#ff7e00]">Heg</span>
+              Hello, I'm <span className="text-[#fccb27]">Heg</span>
             </p>
             <p>A Software Developer</p>
           </h1>
-          <p className="py-16 text-gray-500 max-w-[%35] m-auto">
+          <p className="py-16 text-gray-600 max-w-[%35] m-auto">
             I am a web developer that comes from a barista and Business
             background . Through my past experiences, I can balance the need of
             businesses to understand their pain points and how I can
@@ -41,7 +41,7 @@ export default function Welcome() {
                 <FaGithub />
               </div>
             </a>
-            <Link href=''>
+            <Link href='mailto:gumusucb21@gmail.com'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
