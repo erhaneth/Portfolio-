@@ -10,7 +10,7 @@ export default function Welcome() {
         <div>
           <h1 className="py-8 text-[#090c14]">
             <p className="mb-5">
-              Hello, I'm <span className="text-[#fccb27]">Heg</span>
+              Hello, this is <span className="text-[#fccb27]">Heg</span>
             </p>
             <p>A Software Developer</p>
           </h1>
