@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export default function Welcome() {
@@ -40,6 +41,11 @@ export default function Welcome() {
                 <FaGithub />
               </div>
             </a>
+            <Link href=''>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

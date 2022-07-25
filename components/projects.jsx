@@ -21,22 +21,22 @@ export default function Projects() {
           <ProjectItems
             title="Wordie"
             backgroundImage={wordieImg}
-            projectUrl="/wordie"
+            projectUrl="https://github.com/erhaneth/wordie"
           />
           <ProjectItems
             title="Blockquote"
             backgroundImage={blockquoteImg}
-            projectUrl="/blockquote"
+            projectUrl="https://github.com/erhaneth/blockquote"
           />
           <ProjectItems
             title="Dettipos"
             backgroundImage={dettiposImg}
-            projectUrl="/dettipos"
+            projectUrl="https://github.com/erhaneth/pos-client"
           />
           <ProjectItems
             title="Dbank"
             backgroundImage={dbankImg}
-            projectUrl="/dbank"
+            projectUrl="https://github.com/erhaneth/dbank"
           />
         </div>
       </div>

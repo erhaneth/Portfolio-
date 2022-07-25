@@ -2,7 +2,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import NavLogo from '../public/navLogo.png'
+import NavLogo from '../public/navLogo.png' 
+
 
 export default function Navbar() {
   return (
