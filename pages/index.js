@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Welcome from '../components/welcome.jsx'
+import Welcome from '../components/welcome'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Projects from '../components/projects'
