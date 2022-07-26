@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export default function Welcome() {
   return (
-    <div id='welcome' className="lg:w-1/2 text-center ">
-      <div className=" max-w-[1240px]  flex justify-center items-center">
+    <div id='home' className="lg:w-1/2 text-center ">
+      <div className="max-w-[1240px] flex justify-center items-center">
         <div>
           <h1 className="py-8 text-[#090c14]">
             <p className="mb-5">
