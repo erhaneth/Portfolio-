@@ -10,6 +10,7 @@ export default function Navbar() {
   const handleNav = () => {
     setNav(!nav);
   };
+  
 
   return (
     <div className="bg-[#797b81] fixed w-full h-20 shadow-2xl z-50">

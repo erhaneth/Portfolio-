@@ -12,7 +12,7 @@ export default function Skills() {
         <div className="p-2 flex  flex-row shadow-lg hover:scale-105">
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/html.png"
+              src="/skills/html.png"
               width="54px"
               height="54px"
               alt="/"
@@ -20,7 +20,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/javascript.png"
+              src="/skills/javascript.png"
               width="54px"
               height="54px"
               alt="/"
@@ -28,7 +28,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/python.png"
+              src="/skills/python.png"
               width="54px"
               height="54px"
               alt="/"
@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/react.png"
+              src="/skills/react.png"
               width="54px"
               height="54px"
               alt="/"
@@ -46,7 +46,7 @@ export default function Skills() {
         <div className="p-2 flex  flex-row shadow-lg hover:scale-105">
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/node.png"
+              src="/skills/node.png"
               width="54px"
               height="54px"
               alt="/"
@@ -54,7 +54,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/solidity.png"
+              src="/skills/solidity.png"
               width="54px"
               height="54px"
               alt="/"
@@ -62,7 +62,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/next.png"
+              src="/skills/next.png"
               width="54px"
               height="54px"
               alt="/"
@@ -70,7 +70,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/tailwind.png"
+              src="/skills/tailwind.png"
               width="54px"
               height="54px"
               alt="/"
@@ -80,7 +80,7 @@ export default function Skills() {
         <div className="p-2 flex  flex-row shadow-lg hover:scale-105">
         <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/sql.png"
+              src="/skills/sql.png"
               width="54px"
               height="54px"
               alt="/"
@@ -88,7 +88,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/mongodb.png"
+              src="/skills/mongodb.png"
               width="54px"
               height="54px"
               alt="/"
@@ -97,7 +97,7 @@ export default function Skills() {
 
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/express.png"
+              src="/skills/express.png"
               width="54px"
               height="54px"
               alt="/"
@@ -105,7 +105,7 @@ export default function Skills() {
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
-              src="/../public/skills/post.png"
+              src="/skills/post.png"
               width="54px"
               height="54px"
               alt="/"
