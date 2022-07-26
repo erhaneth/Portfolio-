@@ -2,7 +2,7 @@ import Head from 'next/head'
 // import Welcome from '../components/welcome'
 import About from '../components/about'
 import Skills from '../components/skills'
-// import Projects from '../components/projects'
+import Projects from '../components/projects'
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       {/* <Welcome /> */}
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
       </div>
     </div>
   )
