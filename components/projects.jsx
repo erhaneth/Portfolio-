@@ -6,7 +6,7 @@ import dettiposImg from "../public/projects/dettipos.png";
 import dbankImg from "../public/projects/dbank.png";
 
 import Link from "next/link";
-import ProjectItems from "./ProjectItems";
+import ProjectItems from "./projectItems";
 
 export default function Projects() {
   return (
