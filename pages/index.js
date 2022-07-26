@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div className="pt-20">
 
-      <Welcome />
+      {/* <Welcome /> */}
       <About />
       <Skills />
       <Projects />
