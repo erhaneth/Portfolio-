@@ -39,7 +39,9 @@ export default function Welcome() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300"
+             
+              >
                 <FaGithub />
               </div>
             </a>
@@ -51,7 +53,10 @@ export default function Welcome() {
           </div>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 ">
-            <Image src={AboutImg} className="rounded-3xl" alt="/" />
+            <Image src={AboutImg} className="rounded-3xl" alt="/" 
+             width="300px"
+             height="300px"
+            />
           </div>
       </div>
     </div>
