@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavLogo from "../public/navLogo.png";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import {  AiOutlineMenu } from "react-icons/ai";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -13,7 +13,7 @@ export default function Navbar() {
   
 
   return (
-    <div className="bg-[#797b81] fixed w-full h-20 shadow-2xl z-50">
+    <div className="bg-[#797b81] text-white font-bold fixed w-full h-20 shadow-2xl z-50">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image src={NavLogo} alt="/" width="160" height="160" />
         {nav && (

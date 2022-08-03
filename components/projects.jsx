@@ -11,11 +11,11 @@ import ProjectItems from "./projectItems";
 export default function Projects() {
   return (
     <div id='projects' className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#090c14]">
+      <div className="max-w-[1240px]  mx-auto px-2 py-16">
+        <p className="text-xl flex justify-center tracking-widest uppercase text-[#090c14]">
           Projects
         </p>
-        <h1 className="py-4">My Projects</h1>
+        <h1 className="py-4 flex justify-center">My Projects</h1>
         <div className="grid md:grid-cols-2 gap-8">
           {/* parent container project item components */}
           <ProjectItems

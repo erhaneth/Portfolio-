@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function ProjectItems({ title, backgroundImage, projectUrl }) {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-2xl shadow-gray-300 rounded-xl p-4 group hover:bg-gradient-to-r from-orange-300 to-orange-600">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-2xl shadow-gray-300 rounded-xl p-4 group hover:bg-gradient-to-r from-gray-300 to-gray-600">
             <Image
               className="rounded-lg group-hover:opacity-5"
               src={backgroundImage}
