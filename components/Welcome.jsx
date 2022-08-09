@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn,FaRegFilePdf } from "react-icons/fa";
 import AboutImg from "../public/about.jpg";
 import Image from "next/image";
 
@@ -35,6 +35,17 @@ export default function Welcome() {
              
               >
                 <FaGithub />
+              </div>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1B6fgSCHCQJKKuMPF_LrDoQ2v8T7cWBVo/view?usp=sharing"
+              // target="_blank"
+              // rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300"
+             
+              >
+                <FaRegFilePdf />
               </div>
             </a>
             <Link href='mailto:gumusucb21@gmail.com'
