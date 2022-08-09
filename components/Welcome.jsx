@@ -39,14 +39,17 @@ export default function Welcome() {
                 <FaGithub />
               </div>
             </a>
-            <Link href='mailto:gumusucb21@gmail.com'>
+            <Link href='mailto:gumusucb21@gmail.com'
+            target="_blank"
+              rel="noreferrer"
+            >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
             </Link>
           </div>
         </div>
-        <div className="w-full  h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4">
+        <div className=" h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4">
             <Image src={AboutImg} className="rounded-3xl" alt="/" 
              width="450px"
              height="450px"

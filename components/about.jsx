@@ -13,8 +13,8 @@ export default function About() {
               About
             </p1>
             <p className="py-4 text-gray-600 m-auto text-xl">
-            I am a web developer that comes from business background and a former barista. 
-            Through my past experiences, I can balance the need of
+            I am a web developer that comes from business a background and a former barista. 
+            Through my past experiences, I can balance the needs of
             businesses to understand their pain points and how I can
             contribute as a Software developer to solve problems. I have
             worked with a wide range of people from different backgrounds and
