@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import AboutImg from "../public/welcome.jpg";
+import AboutImg from "../public/about.jpg";
 import Image from "next/image";
 
 export default function Welcome() {
