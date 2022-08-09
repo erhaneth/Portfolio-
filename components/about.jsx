@@ -13,15 +13,16 @@ export default function About() {
               About
             </p1>
             <p className="py-4 text-gray-600 m-auto text-xl">
-              I am interested in developing efficient and user-centric projects.
-              Primarily work with Fullstack tools and related technologies, and
-              always seek to immerse myself in new tech to understand how issues
-              can be solved more effectively. Passionate about blockchain
-              technology and motivated to make it broadly accessible and
-              utilized.
+            I am a web developer that comes from business background and a former barista. 
+            Through my past experiences, I can balance the need of
+            businesses to understand their pain points and how I can
+            contribute as a Software developer to solve problems. I have
+            worked with a wide range of people from different backgrounds and
+            demographics. This has enabled me to adapt and become flexible in
+            the workplace.
             </p>
           </div>
-          <div className="w-full h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 ">
+          <div className="w-full  h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 ">
             <Image src={AboutImg} className="rounded-3xl" alt="/" />
           </div>
         </div>
