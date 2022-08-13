@@ -14,7 +14,7 @@ export default function Welcome() {
             <p className="mb-5">
               Hello, this is <span className="text-[#fccb27]">Heg.</span>
             </p>
-            <p>A Software Developer based on San Francisco Bay Area, CA</p>
+            <p>A Software Developer based in the San Francisco Bay Area, CA</p>
           </h1>
          
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

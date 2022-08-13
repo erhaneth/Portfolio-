@@ -13,10 +13,24 @@ export default function About() {
             </p1>
             <p className="py-4 text-gray-600 m-auto text-xl">
               I am a software developer with a business background and a
-              barista. I enjoy solving problems and developing efficient and
-              <span className="font-bold">user-centric</span> products. I work with JavaScript, Python, Solidity,
-              React and I always seek to immerse myself in new tech tools to understand
-              how issues can be solved more effectively. I have worked with people from diverse backgrounds and this has taught me how to foster an <span className="font-bold">inclusive and positive</span> work environment.
+              barista. I enjoy solving problems and developing{" "}
+              <span className="font-bold text-black">efficient</span> and
+              <span className="font-bold text-black">user-centric</span>{" "}
+              products.
+            </p>
+            <p className="py-4 text-gray-600 m-auto text-xl">
+              I work with JavaScript, Python, Solidity, React and I always seek
+              to immerse myself in new tech tools to understand how issues can
+              be solved{" "}
+              <span className="font-bold text-black">more effectively.</span>
+            </p>{" "}
+            <p className="py-4 text-gray-600 m-auto text-xl">
+              I have worked with people from diverse backgrounds and this has
+              taught me how to foster an{" "}
+              <span className="font-bold text-black">
+                inclusive and positive
+              </span>{" "}
+              work environment.
             </p>
           </div>
           <div className="w-full  h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 ">
