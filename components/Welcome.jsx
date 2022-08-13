@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn,FaRegFilePdf } from "react-icons/fa";
-import AboutImg from "../public/about.jpg";
+import WelcomeImg from "../public/welcome.jpg";
 import Image from "next/image";
 
 export default function Welcome() {
@@ -59,7 +59,7 @@ export default function Welcome() {
           </div>
         </div>
         <div className="h-auto m-auto shadow-xl shadow-gray-600 rounded-full flex items-center justify-center p-4">
-            <Image src={AboutImg} className=" rounded-full" alt="/" 
+            <Image src={WelcomeImg } className=" rounded-full" alt="/" 
              width="450px"
              height="450px"
             />
