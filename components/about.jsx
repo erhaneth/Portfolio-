@@ -14,7 +14,7 @@ export default function About() {
             <p className="py-4 text-gray-600 m-auto text-xl">
               I am a software developer with a business background and a
               barista. I enjoy solving problems and developing{" "}
-              <span className="font-bold text-black">efficient</span> and
+              <span className="font-bold text-black">efficient</span> and{" "}
               <span className="font-bold text-black">user-centric</span>{" "}
               products.
             </p>
