@@ -1,4 +1,3 @@
-//special ssr image component
 import React from "react";
 import Image from "next/image";
 import AboutImg from "../public/about.jpg";
@@ -13,13 +12,11 @@ export default function About() {
               About
             </p1>
             <p className="py-4 text-gray-600 m-auto text-xl">
-            I am a web developer that comes from business a background and a former barista. 
-            Through my past experiences, I can balance the needs of
-            businesses to understand their pain points and how I can
-            contribute as a Software developer to solve problems. I have
-            worked with a wide range of people from different backgrounds and
-            demographics. This has enabled me to adapt and become flexible in
-            the workplace.
+              I am a software developer with a business background and a
+              barista. I enjoy solving problems and developing efficient and
+              <span className="font-bold">user-centric</span> products. I work with JavaScript, Python, Solidity,
+              React and I always seek to immerse myself in new tech tools to understand
+              how issues can be solved more effectively. I have worked with people from diverse backgrounds and this has taught me how to foster an <span className="font-bold">inclusive and positive</span> work environment.
             </p>
           </div>
           <div className="w-full  h-auto m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 ">
