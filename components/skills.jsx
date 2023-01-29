@@ -3,20 +3,15 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div id="skills" className="lg:w-full">
-      <div className="max-w-4xl mx-auto flex flex-col justify center h-full">
-        <p className="pb-4 uppercase flex justify justify-center items-center text-xl tracking-widest text-[#090c14]">
+    <div id="skills" className="lg:w-full bg-[#f5f5f5] py-16">
+      <div className="max-w-4xl mx-auto p-2 flex flex-col justify-center h-full">
+        <p className="uppercase flex justify-center text-3xl text-bold tracking-widest text-[#090c14]">
           Skills
         </p>
 
         <div className="p-2 flex  flex-row shadow-lg hover:scale-105">
           <div className="flex items-center justify-between m-auto">
-            <Image
-              src="/skills/html.png"
-              width="54px"
-              height="54px"
-              alt="/"
-            />
+            <Image src="/skills/html.png" width="54px" height="54px" alt="/" />
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
@@ -35,22 +30,12 @@ export default function Skills() {
             />
           </div>
           <div className="flex items-center justify-between m-auto">
-            <Image
-              src="/skills/react.png"
-              width="54px"
-              height="54px"
-              alt="/"
-            />
+            <Image src="/skills/react.png" width="54px" height="54px" alt="/" />
           </div>
         </div>
         <div className="p-2 flex  flex-row shadow-lg hover:scale-105">
           <div className="flex items-center justify-between m-auto">
-            <Image
-              src="/skills/node.png"
-              width="54px"
-              height="54px"
-              alt="/"
-            />
+            <Image src="/skills/node.png" width="54px" height="54px" alt="/" />
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
@@ -61,12 +46,7 @@ export default function Skills() {
             />
           </div>
           <div className="flex items-center justify-between m-auto">
-            <Image
-              src="/skills/next.png"
-              width="54px"
-              height="54px"
-              alt="/"
-            />
+            <Image src="/skills/next.png" width="54px" height="54px" alt="/" />
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
@@ -78,13 +58,8 @@ export default function Skills() {
           </div>
         </div>
         <div className="p-2 flex  flex-row shadow-lg hover:scale-105">
-        <div className="flex items-center justify-between m-auto">
-            <Image
-              src="/skills/sql.png"
-              width="54px"
-              height="54px"
-              alt="/"
-            />
+          <div className="flex items-center justify-between m-auto">
+            <Image src="/skills/sql.png" width="54px" height="54px" alt="/" />
           </div>
           <div className="flex items-center justify-between m-auto">
             <Image
@@ -104,12 +79,7 @@ export default function Skills() {
             />
           </div>
           <div className="flex items-center justify-between m-auto">
-            <Image
-              src="/skills/post.png"
-              width="54px"
-              height="54px"
-              alt="/"
-            />
+            <Image src="/skills/post.png" width="54px" height="54px" alt="/" />
           </div>
         </div>
       </div>
