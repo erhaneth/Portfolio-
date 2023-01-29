@@ -3,24 +3,27 @@
 @tailwind utilities;
 
 @layer base {
-  {
-    @apply bg-[#646464] text-[#1f2937] tracking-wide
+   {
+    @apply bg-[#646464] text-[#1f2937] tracking-wide;
   }
- h1,h2,h3,h4{
-  @apply font-bold
- }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold;
+  }
 
- h1 {
-  @apply text-4xl sm:text-5xl md:text-6xl
- }
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
 
- h2 {
-  @apply text-3xl sm:text-4xl
- }
- li {
-  @apply cursor-pointer
- }
- button {
-  @apply shadow-xl shadow-orange-300 rounded-xl uppercase bg-gradient-to-tr from-[#6a6a8d] to-[#3d7a94] text-white
- }
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+  li {
+    @apply cursor-pointer;
+  }
+  button {
+    @apply shadow-xl shadow-orange-300 rounded-xl uppercase bg-gradient-to-tr from-[#6a6a8d] to-[#3d7a94] text-white;
+  }
 }

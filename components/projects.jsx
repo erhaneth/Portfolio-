@@ -10,23 +10,17 @@ import ProjectItems from "./projectItems";
 
 export default function Projects() {
   return (
-    <div id='projects' className="w-full">
+    <div id="projects" className="w-full bg-[#f5f5f5]">
       <div className="max-w-[1240px]  mx-auto px-2 py-16">
-        <p className="text-xl flex justify-center tracking-widest uppercase text-[#090c14]">
+        <p className="uppercase flex justify-center text-3xl text-bold tracking-widest text-[#090c14]">
           Projects
         </p>
-        <h1 className="py-4 flex justify-center">My Projects</h1>
         <div className="grid md:grid-cols-2 gap-8">
           {/* parent container project item components */}
           <ProjectItems
-            title="Wordie"
-            backgroundImage={wordieImg}
-            projectUrl="https://github.com/erhaneth/wordie"
-          />
-          <ProjectItems
-            title="Blockquote"
-            backgroundImage={blockquoteImg}
-            projectUrl="https://github.com/erhaneth/blockquote"
+            title="Dbank"
+            backgroundImage={dbankImg}
+            projectUrl="https://github.com/erhaneth/dbank"
           />
           <ProjectItems
             title="Dettipos"
@@ -34,9 +28,14 @@ export default function Projects() {
             projectUrl="https://github.com/erhaneth/pos-client"
           />
           <ProjectItems
-            title="Dbank"
-            backgroundImage={dbankImg}
-            projectUrl="https://github.com/erhaneth/dbank"
+            title="Blockquote"
+            backgroundImage={blockquoteImg}
+            projectUrl="https://github.com/erhaneth/blockquote"
+          />
+          <ProjectItems
+            title="Wordie"
+            backgroundImage={wordieImg}
+            projectUrl="https://github.com/erhaneth/wordie"
           />
         </div>
       </div>
