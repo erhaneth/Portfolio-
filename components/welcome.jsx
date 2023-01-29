@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Welcome() {
   return (
-    <div id="home" className="text-center bg-[#f5f5f5]">
+    <div id="home" className="text-center bg-[#f5f5f5] p-20">
       <div className="md:flex-row flex-col flex justify-center items-center">
         <div className="">
           <h1 className="py-20 text-gray-800">

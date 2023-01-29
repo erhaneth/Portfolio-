@@ -14,7 +14,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-[#f5f5f5] py-20">
+    <div className="bg-[#f5f5f5] p-20">
       <p className="flex justify-center text-3xl text-bold tracking-widest text-[#090c14]">
         Contact with Me
       </p>

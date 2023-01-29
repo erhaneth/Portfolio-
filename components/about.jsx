@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="w-full md:h-screen p-2 flex items-center py-16 bg-[#f5f5f5]"
+      className="w-full md:h-screen flex items-center p-20 bg-[#f5f5f5]"
     >
       <div className="w-full md:screen p-2 flex items-center py-10">
         <div className="max-w-1240px m-auto md:grid grid-cols-1 gap-8">

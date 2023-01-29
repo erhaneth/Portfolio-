@@ -10,8 +10,8 @@ import ProjectItems from "./projectItems";
 
 export default function Projects() {
   return (
-    <div id="projects" className="w-full bg-[#f5f5f5]">
-      <div className="max-w-[1240px]  mx-auto px-2 py-16">
+    <div id="projects" className="w-full bg-[#f5f5f5] p-20 ">
+      <div className="max-w-[1200px]  mx-auto px-2">
         <p className="uppercase flex justify-center text-3xl text-bold tracking-widest text-[#090c14]">
           Projects
         </p>
