@@ -62,8 +62,8 @@ export default function Welcome() {
             src={WelcomeImg}
             className=" rounded-full"
             alt="/"
-            width="600px"
-            height="600px"
+            width="750px"
+            height="750px"
           />
         </div>
       </div>
