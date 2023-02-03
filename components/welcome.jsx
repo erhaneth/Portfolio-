@@ -38,7 +38,7 @@ export default function Welcome() {
               </div>
             </a>
             <a
-              href="https://drive.google.com/file/d/1B6fgSCHCQJKKuMPF_LrDoQ2v8T7cWBVo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WALj5B_nU3ibYmmnrnDv4X98ejPFdrJj/view?usp=share_link"
               // target="_blank"
               // rel="noreferrer"
             >
