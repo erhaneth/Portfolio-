@@ -5,12 +5,49 @@ export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitStatus, setSubmitStatus] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // add your form submission logic here, such as sending an email or sending data to a server
-    setSubmitStatus("Form submitted!");
-    window.location.reload(false);
+
+    // Validate email
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address.");
+      return;
+    }
+
+    setIsLoading(true);
+
+    try {
+      // Send form data to server
+      await submitFormToServer({ name, email, message });
+
+      setSubmitStatus("Form submitted successfully!");
+      setName("");
+      setEmail("");
+      setMessage("");
+      setIsLoading(false);
+    } catch (error) {
+      setErrorMessage(
+        "There was an error submitting the form. Please try again later."
+      );
+      setIsLoading(false);
+    }
+  };
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const submitFormToServer = async (formData) => {
+    // Add your form submission logic here, such as sending an email or sending data to a server
+    await fetch("/api/submitForm", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
   };
 
   return (
@@ -47,8 +84,9 @@ export default function ContactForm() {
             <button
               type="submit"
               className="bg-[#fccb27] text-[#090c14] p-2 rounded-md cursor-pointer hover:scale-105 ease-in duration-300 mt-4"
+              disabled={isLoading}
             >
-              Submit
+              {isLoading ? "Submitting..." : "Submit"}
             </button>
           </div>
 
