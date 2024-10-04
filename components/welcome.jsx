@@ -11,8 +11,8 @@ export default function Welcome() {
       <div className="md:flex-row flex-col flex justify-center items-center">
         <div className="">
           <h1 className="py-20 text-[#090c14]">
-            <p className="mb-5">
-              Hello, this is <span className="text-[#fccb27]">Heg.</span>
+            <p className="mb-3">
+              Hello, this is <span className="text-[#fccb27]">Huseyin</span>
             </p>
             <p>A Software Developer based in the Santa Clara, CA</p>
           </h1>
