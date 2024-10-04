@@ -68,7 +68,8 @@ export default function ContactForm() {
         </svg>
         <h2 className="text-2xl font-bold text-gray-800 mb-2">Thank You!</h2>
         <p className="text-gray-600 mb-4">
-          Your message has been successfully sent. I'll get back to you soon!
+          Your message has been successfully sent. I&apos;ll get back to you
+          soon!
         </p>
       </div>
     </div>
