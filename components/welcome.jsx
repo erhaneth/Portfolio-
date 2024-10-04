@@ -12,9 +12,9 @@ export default function Welcome() {
         <div className="">
           <h1 className="py-20 text-[#090c14]">
             <p className="mb-5">
-              Hello, this is <span className="text-[#fccb27]">Huseyin.</span>
+              Hello, this is <span className="text-[#fccb27]">Heg.</span>
             </p>
-            <p>A Software Developer based in the Santa Clara, CA</p>
+            <p>A Software Developer based in the San Francisco Bay Area, CA</p>
           </h1>
 
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
